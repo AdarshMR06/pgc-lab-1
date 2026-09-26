@@ -165,6 +165,8 @@ All source code is located in the [`src/`](src/) directory:
 - **Execution Time:** 0.165 seconds
 - **Speedup:** 1479× compared with the Sequential CPU implementation
 
+- 
+
 
 ## 5. Measured Results & Screenshots
 
