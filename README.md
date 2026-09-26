@@ -127,6 +127,44 @@ All source code is located in the [`src/`](src/) directory:
 | **CUDA GPU** | [`src/cuda/matrix_cuda.cu`](src/cuda/matrix_cuda.cu) | `matMulKernel<<<grid, block>>>` with 16M GPU threads |
 
 ---
+## CUDA Implementation Steps
+
+1. **Create the CUDA program**
+   - Created `matrix_cuda.cu` inside the `source/cuda/` folder.
+
+2. **Prepare the input matrices**
+   - Created the matrices required for the computation.
+
+3. **Allocate GPU memory**
+   - Allocated memory on the CUDA-enabled GPU for the input and output matrices.
+
+4. **Copy data from CPU to GPU**
+   - Transferred the input matrices from host memory to GPU memory.
+
+5. **Create CUDA kernel**
+   - Implemented the matrix calculation inside a CUDA kernel.
+
+6. **Launch GPU threads**
+   - Divided the calculation among a large number of GPU threads.
+   - Threads execute the calculation in parallel.
+
+7. **Perform the computation**
+   - The GPU performs the matrix operations simultaneously using CUDA threads.
+
+8. **Copy result back to CPU**
+   - Transferred the computed result from GPU memory back to CPU memory.
+
+9. **Measure execution time**
+   - Measured the total execution time of the CUDA implementation.
+
+10. **Compare performance**
+    - Compared the CUDA execution time with the Sequential, OpenMP, and MPI implementations.
+
+### CUDA Result
+
+- **Execution Time:** 0.165 seconds
+- **Speedup:** 1479× compared with the Sequential CPU implementation
+
 
 ## 5. Measured Results & Screenshots
 
