@@ -1,5 +1,4 @@
-# Experiment 1: Performance Analysis of Sequential, OpenMP, MPI and CUDA Matrix Multiplication# Matrix Multiplication — Parallel & GPU Performance Study
-
+# Experiment 1: Performance Analysis of Sequential, OpenMP, MPI and CUDA Matrix Multiplication
 [![Course](https://img.shields.io/badge/Course-Parallel%20%26%20GPU%20Computing-blue.svg)](#)
 [![Workload](https://img.shields.io/badge/Workload-4000x4000%20Matrix%20Multiplication-orange.svg)](#)
 [![Paradigms](https://img.shields.io/badge/Paradigms-Sequential%20%7C%20OpenMP%20%7C%20MPI%20%7C%20CUDA-green.svg)](#)
