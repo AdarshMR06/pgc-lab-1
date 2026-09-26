@@ -1,5 +1,8 @@
 # Experiment 1: Performance Analysis of Sequential, OpenMP, MPI and CUDA Matrix Multiplication
 
+
+
+
 ## Overview
 
 This repository documents the benchmarking, parallel implementations, and empirical results for a **$4000 \times 4000$ Matrix Multiplication** ($C = A \times B$) evaluated across four distinct computing paradigms: Sequential, OpenMP, MPI, and CUDA.
